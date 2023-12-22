@@ -1,8 +1,7 @@
 [user]
 
-	name = Zachary Rankin
-	email = rankin.zachary@gmail.com
-	signingkey = AED8606F90D55DBAE98391B1792C8A2B4BFA9457
+	name = David Fagan
+	email = davida.fagan@gmail.com
 
 [alias]
 
@@ -78,11 +77,7 @@
   required = true
 	process = git-lfs filter-process
 [core]
-  editor = vim
+  editor = nvim
 
 [includeIf "gitdir:/**/kelvineducation/"]
   path = .gitconfig-kelvin
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg
