@@ -97,6 +97,8 @@ let $FZF_DEFAULT_COMMAND = 'ag -g ""'
 
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
+" let g:copilot_browser = [t_list]
+let g:open_command = ['cat']
 
 autocmd BufNewFile,BufRead *.phtml set filetype=html
 autocmd BufNewFile,BufRead *.vue set filetype=vue
