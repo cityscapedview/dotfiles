@@ -4,4 +4,3 @@ export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --e
 export GPG_TTY=$(tty)
 export GOPATH=$HOME/go
 export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.cargo/bin:/usr/local/go/bin:/usr/local/heroku/bin:/usr/local/exercism:/usr/local/hub:$GOPATH/bin:/usr/local/hugo:/usr/local/nvim-linux-x86_64/bin:$PATH
-source ~/.nvm/nvm.sh
