@@ -1,1 +1,2 @@
-export PATH=/usr/local/opt/gnu-sed/libexec/gnubin:/Applications/Postgres.app/Contents/Versions/11/bin:$PATH
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+export PATH=/usr/local/opt/gnu-sed/libexec/gnubin:/Applications/Postgres.app/Contents/Versions/11/bin:$HOME/bin:$PATH
