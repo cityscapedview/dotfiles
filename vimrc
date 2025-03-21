@@ -62,7 +62,7 @@ if filereadable(expand("~/.vimrc.bundles"))
 endif
 
 syntax on
-color gruvbox
+" color gruvbox
 
 " Unbind the cursor keys
 nnoremap <Left> :echoe "Use h"<CR>
