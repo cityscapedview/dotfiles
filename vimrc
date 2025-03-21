@@ -57,12 +57,12 @@ set colorcolumn=+1
 " OMG save me from this autocomplete trash
 set wildmode=list:longest
 
-syntax on
-color bw
-
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
+
+syntax on
+color gruvbox
 
 " Unbind the cursor keys
 nnoremap <Left> :echoe "Use h"<CR>
