@@ -91,9 +91,13 @@ nmap <leader>" cs'"
 nmap <leader>p :GFiles<CR>
 nmap <leader>pp :Files<CR>
 nmap <leader>P :Buffers<CR>
-nmap <leader>\ :Ag<CR>
+nmap <leader>\ :Ag 
 
-let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+" let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+let $FZF_DEFAULT_COMMAND = 'fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+let g:fzf_vim = {}
+" fzf disable preview window
+let g:fzf_vim.preview_window = []
 
 imap <silent><script><expr> <C-J> copilot#Accept("\<CR>")
 let g:copilot_no_tab_map = v:true
