@@ -1,0 +1,11 @@
+[/]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Decibels.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Music.desktop': <{'position': <5>}>, 'bssh.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Totem.desktop': <{'position': <8>}>, 'org.gnome.Snapshot.desktop': <{'position': <9>}>, 'bvnc.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'Utilities': <{'position': <12>}>, 'System': <{'position': <13>}>, 'org.gnome.Tour.desktop': <{'position': <14>}>, 'yelp.desktop': <{'position': <15>}>, 'avahi-discover.desktop': <{'position': <16>}>, 'org.gnome.SimpleScan.desktop': <{'position': <17>}>, 'org.gnome.Extensions.desktop': <{'position': <18>}>, 'org.gnome.Calculator.desktop': <{'position': <19>}>, 'htop.desktop': <{'position': <20>}>, 'qv4l2.desktop': <{'position': <21>}>, 'qvidcap.desktop': <{'position': <22>}>, 'vim.desktop': <{'position': <23>}>}, {'org.gnome.TextEditor.desktop': <{'position': <0>}>, 'org.gnome.Software.desktop': <{'position': <1>}>, 'org.gnome.Calendar.desktop': <{'position': <2>}>, 'electron34.desktop': <{'position': <3>}>, 'org.gnome.Nautilus.desktop': <{'position': <4>}>, 'nvim.desktop': <{'position': <5>}>, 'org.gnome.Epiphany.desktop': <{'position': <6>}>, 'discord.desktop': <{'position': <7>}>}]
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['emacsclient.desktop', 'foot.desktop', 'firefox.desktop', 'obsidian.desktop', 'slack.desktop', 'Zoom.desktop']
+welcome-dialog-last-shown-version='48.2'
+
+[extensions/user-theme]
+name=''
+
+[world-clocks]
+locations=@av []

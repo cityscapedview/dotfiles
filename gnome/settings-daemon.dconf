@@ -1,0 +1,10 @@
+[plugins/color]
+night-light-schedule-automatic=false
+
+[plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+
+[plugins/media-keys/custom-keybindings/custom0]
+binding='<Ctrl><Alt><Shift>H'
+command='dbus-send --session --dest=com.zoom.HotKeyService --type=method_call /com/zoom/HotKeyListener com.zoom.HotKeyListener.keyPressed int64:55834574920 string:"<Ctrl><Alt><Shift>H"'
+name='ZMHKey55834574920'
